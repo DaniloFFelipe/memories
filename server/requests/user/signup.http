@@ -1,0 +1,9 @@
+POST http://localhost:3333/api/users/sign-up HTTP/1.1
+Content-Type: application/json
+
+{
+	"name": "Danilo",
+	"email": "danilo@email.com",
+	"password": "123123",
+	"pictureUrl": "https://github.com/daniloffelipe.png"
+}

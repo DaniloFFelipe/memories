@@ -1,0 +1,9 @@
+POST http://localhost:3333/api/memories HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI5YTJlMjVlMC1kMjNlLTRlMmItOWNhOS1hMmRjYjBiNTc3MjQiLCJpYXQiOjE2ODQ4NjkwMTd9.3wxHQQKoOd8MzlsCjvrMVE4cKtJI9prhpMQwV1WKQ54
+
+{
+	"coverUrl": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/avatars/00/003b76ebe659d748defc5800d5765f66fa4a6273_full.jpg",
+  "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+  "isPublic": true
+}
